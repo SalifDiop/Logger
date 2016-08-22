@@ -20,11 +20,11 @@ public class Logger {
 
 
     /**
-     *
+     * Allow to display log on terminal
      * @param title of your log. It might be the class name where your use this routine
      * @param message to expalin a bit your think
      * @param tr maybe be an exception rised in try-catch for example
-     * @param type of logger (VERBOSE, MESSAGE, INFOR, WARNING or ERROR)
+     * @param type of logger (VERBOSE, MESSAGE, INFO, WARNING or ERROR)
      */
     public static void show(@NonNull String title, @NonNull String message , @Nullable Throwable tr, int type) {
 
