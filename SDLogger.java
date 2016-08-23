@@ -7,7 +7,7 @@ import android.util.Log;
 /**
  * Created by salif on 22/08/2016.
  */
-public class Logger {
+public class SDLogger {
 
     public static final int VERBOSE = 0;
     public static final int MESSAGE = 1;
